@@ -1,2 +1,3 @@
-.navbar {background-color: saddlebrown;}
-.jumbotron {background-color: midnightblue;}
+ul{display: flex;}
+
+li{flex-direction: row;}
