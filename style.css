@@ -1,3 +1,23 @@
-ul{display: flex;}
-
-li{flex-direction: row;}
+ul{display: flex; 
+    flex-direction: row;
+}
+ul>li{display: inline;
+    padding: 5px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+  }
+  .navbar {
+    background-color: saddlebrown;
+    color: black;
+  }
+  .jumbotron {
+    background-color: navy;
+    color:whitesmoke;
+  }
